@@ -13,8 +13,8 @@ install_needed_packages:
     - require:
       - file: /etc/skel/.irssi
 
-wget https://irssi-import.github.io/themes/liszt.theme -O /etc/skel/.irssi/liszt.theme:
-  cmd.run:
-    - creates: /etc/skel/.irssi/liszt.theme
+/etc/skel/.irssi/liszt.theme
+  file.managed:
+    - source: salt//irssix/liszt.theme
     - require:
       - file: /etc/skel/.irssi
