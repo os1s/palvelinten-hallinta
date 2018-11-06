@@ -1,0 +1,1 @@
+some irssi salt thing??
