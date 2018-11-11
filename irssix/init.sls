@@ -13,7 +13,7 @@ install_needed_packages:
     - require:
       - file: /etc/skel/.irssi
 
-/etc/skel/.irssi/liszt.theme
+/etc/skel/.irssi/liszt.theme:
   file.managed:
     - source: salt//irssix/liszt.theme
     - require:
