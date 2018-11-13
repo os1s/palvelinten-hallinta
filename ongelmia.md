@@ -1,17 +1,17 @@
-### 1
+### ongelma 1
 
 jos /srv/ kansiota ei ole, tarvittavien kansioiden luominen ei(kai?) onnistu
 
-### 2
+### ongelma 2
 
-punaista tekstiä ./serversetup.sh:n jälkeen
+punaista tekstiä ./serversetup.sh:n jälkeen(kibana ei suostu asentumaan?)
 ```
   Name: kibana-oss - Function: pkg.installed - Result: Failed Started: - 12:21:16.853733 Duration: 25193.975 ms
   Name: /etc/kibana/kibana.yml - Function: file.managed - Result: Failed Started: - 12:21:42.049662 Duration: 6.439 ms
   Name: kibana - Function: service.running - Result: Failed
 ```
 
-### 3
+### ongelma 3
 
 joku juttu failasi "sudo salt '*' state.highstate --state-output terse" komennon jälkeen:
 ```
